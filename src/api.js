@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const GEMINI_API_KEY = 'AIzaSyCOu88PM1_lXTJPEJO8cT8YXoEm05P1D_U'; // Replace with your actual API key
+const GEMINI_API_KEY = 'Your_api_key'; // Replace with your actual API key
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 // Custom system prompt that defines how the AI should behave
@@ -44,4 +44,5 @@ async function listModels() {
 }
 
 export default run;
+
 export { listModels };
